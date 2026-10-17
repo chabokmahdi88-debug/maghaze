@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/nwfsiwqa/public_html/
+    - /bin/cp index.html logo.png logo-small.png hero.jpg hero-small.jpg $DEPLOYPATH
